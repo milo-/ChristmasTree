@@ -22,8 +22,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Create the window and set the content view. 
         window = NSWindow(
             contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
-            styleMask: [.resizable, .fullSizeContentView, .hudWindow],
+            styleMask: [.resizable],
             backing: .buffered, defer: false)
+        window.minSize = CGSize(width: 480, height: 300)
+        window.contentMinSize = CGSize(width: 480, height: 300)
+        window.maxSize = CGSize(width: 480, height: 300)
+        window.showsResizeIndicator = true
+        window.isMovableByWindowBackground = true
+        window.preservesContentDuringLiveResize = true
         window.center()
         window.setFrameAutosaveName("Main Window")
         window.title = "Christmas Tree"

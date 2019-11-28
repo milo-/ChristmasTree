@@ -26,7 +26,7 @@ struct CountdownView: View {
         }
             .fixedSize()
             .cornerRadius(15)
-            .shadow(color: Color.black.opacity(0.3), radius: 4, x: 2, y: 2  )
+            .shadow(color: Color.black.opacity(0.3), radius: 2, x: 2, y: 2)
             .offset(x: 0, y: -5)
     }
 }
