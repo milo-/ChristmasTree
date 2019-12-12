@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268BA4A22384011600B883DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4A12384011600B883DC /* AppDelegate.swift */; };
+		268BA4A42384011600B883DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4A32384011600B883DC /* ContentView.swift */; };
+		268BA4A62384011A00B883DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268BA4A52384011A00B883DC /* Assets.xcassets */; };
+		268BA4A92384011A00B883DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268BA4A82384011A00B883DC /* Preview Assets.xcassets */; };
+		268BA4AC2384011A00B883DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268BA4AA2384011A00B883DC /* Main.storyboard */; };
+		268BA4B82384011A00B883DC /* ChristmasTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4B72384011A00B883DC /* ChristmasTreeTests.swift */; };
+		268BA4C32384011A00B883DC /* ChristmasTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4C22384011A00B883DC /* ChristmasTreeUITests.swift */; };
+		268BA4D12384072800B883DC /* DaysCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D02384072800B883DC /* DaysCalculator.swift */; };
+		268BA4D323840B4F00B883DC /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D223840B4F00B883DC /* CountdownView.swift */; };
+		268BA4D523840F7100B883DC /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D423840F7100B883DC /* PreferencesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268BA4B42384011A00B883DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268BA4962384011600B883DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268BA49D2384011600B883DC;
+			remoteInfo = ChristmasTree;
+		};
+		268BA4BF2384011A00B883DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268BA4962384011600B883DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268BA49D2384011600B883DC;
+			remoteInfo = ChristmasTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268BA49E2384011600B883DC /* Christmas Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268BA4A12384011600B883DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268BA4A32384011600B883DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		268BA4A52384011A00B883DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268BA4A82384011A00B883DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		268BA4AB2384011A00B883DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268BA4AD2384011A00B883DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268BA4AE2384011A00B883DC /* ChristmasTree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChristmasTree.entitlements; sourceTree = "<group>"; };
+		268BA4B32384011A00B883DC /* ChristmasTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268BA4B72384011A00B883DC /* ChristmasTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTreeTests.swift; sourceTree = "<group>"; };
+		268BA4B92384011A00B883DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268BA4BE2384011A00B883DC /* ChristmasTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268BA4C22384011A00B883DC /* ChristmasTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTreeUITests.swift; sourceTree = "<group>"; };
+		268BA4C42384011A00B883DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268BA4D02384072800B883DC /* DaysCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCalculator.swift; sourceTree = "<group>"; };
+		268BA4D223840B4F00B883DC /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		268BA4D423840F7100B883DC /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268BA49B2384011600B883DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268BA4B02384011A00B883DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268BA4BB2384011A00B883DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268BA4952384011600B883DC = {
+			isa = PBXGroup;
+			children = (
+				268BA4A02384011600B883DC /* ChristmasTree */,
+				268BA4B62384011A00B883DC /* ChristmasTreeTests */,
+				268BA4C12384011A00B883DC /* ChristmasTreeUITests */,
+				268BA49F2384011600B883DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268BA49F2384011600B883DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268BA49E2384011600B883DC /* Christmas Tree.app */,
+				268BA4B32384011A00B883DC /* ChristmasTreeTests.xctest */,
+				268BA4BE2384011A00B883DC /* ChristmasTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268BA4A02384011600B883DC /* ChristmasTree */ = {
+			isa = PBXGroup;
+			children = (
+				268BA4A12384011600B883DC /* AppDelegate.swift */,
+				268BA4A32384011600B883DC /* ContentView.swift */,
+				268BA4A52384011A00B883DC /* Assets.xcassets */,
+				268BA4AA2384011A00B883DC /* Main.storyboard */,
+				268BA4AD2384011A00B883DC /* Info.plist */,
+				268BA4AE2384011A00B883DC /* ChristmasTree.entitlements */,
+				268BA4A72384011A00B883DC /* Preview Content */,
+				268BA4D02384072800B883DC /* DaysCalculator.swift */,
+				268BA4D223840B4F00B883DC /* CountdownView.swift */,
+				268BA4D423840F7100B883DC /* PreferencesView.swift */,
+			);
+			path = ChristmasTree;
+			sourceTree = "<group>";
+		};
+		268BA4A72384011A00B883DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				268BA4A82384011A00B883DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		268BA4B62384011A00B883DC /* ChristmasTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				268BA4B72384011A00B883DC /* ChristmasTreeTests.swift */,
+				268BA4B92384011A00B883DC /* Info.plist */,
+			);
+			path = ChristmasTreeTests;
+			sourceTree = "<group>";
+		};
+		268BA4C12384011A00B883DC /* ChristmasTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				268BA4C22384011A00B883DC /* ChristmasTreeUITests.swift */,
+				268BA4C42384011A00B883DC /* Info.plist */,
+			);
+			path = ChristmasTreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268BA49D2384011600B883DC /* ChristmasTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268BA4C72384011A00B883DC /* Build configuration list for PBXNativeTarget "ChristmasTree" */;
+			buildPhases = (
+				268BA49A2384011600B883DC /* Sources */,
+				268BA49B2384011600B883DC /* Frameworks */,
+				268BA49C2384011600B883DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChristmasTree;
+			productName = ChristmasTree;
+			productReference = 268BA49E2384011600B883DC /* Christmas Tree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		268BA4B22384011A00B883DC /* ChristmasTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268BA4CA2384011A00B883DC /* Build configuration list for PBXNativeTarget "ChristmasTreeTests" */;
+			buildPhases = (
+				268BA4AF2384011A00B883DC /* Sources */,
+				268BA4B02384011A00B883DC /* Frameworks */,
+				268BA4B12384011A00B883DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268BA4B52384011A00B883DC /* PBXTargetDependency */,
+			);
+			name = ChristmasTreeTests;
+			productName = ChristmasTreeTests;
+			productReference = 268BA4B32384011A00B883DC /* ChristmasTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268BA4BD2384011A00B883DC /* ChristmasTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268BA4CD2384011A00B883DC /* Build configuration list for PBXNativeTarget "ChristmasTreeUITests" */;
+			buildPhases = (
+				268BA4BA2384011A00B883DC /* Sources */,
+				268BA4BB2384011A00B883DC /* Frameworks */,
+				268BA4BC2384011A00B883DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268BA4C02384011A00B883DC /* PBXTargetDependency */,
+			);
+			name = ChristmasTreeUITests;
+			productName = ChristmasTreeUITests;
+			productReference = 268BA4BE2384011A00B883DC /* ChristmasTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268BA4962384011600B883DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Milo Hill";
+				TargetAttributes = {
+					268BA49D2384011600B883DC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					268BA4B22384011A00B883DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 268BA49D2384011600B883DC;
+					};
+					268BA4BD2384011A00B883DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 268BA49D2384011600B883DC;
+					};
+				};
+			};
+			buildConfigurationList = 268BA4992384011600B883DC /* Build configuration list for PBXProject "ChristmasTree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268BA4952384011600B883DC;
+			productRefGroup = 268BA49F2384011600B883DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268BA49D2384011600B883DC /* ChristmasTree */,
+				268BA4B22384011A00B883DC /* ChristmasTreeTests */,
+				268BA4BD2384011A00B883DC /* ChristmasTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268BA49C2384011600B883DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BA4AC2384011A00B883DC /* Main.storyboard in Resources */,
+				268BA4A92384011A00B883DC /* Preview Assets.xcassets in Resources */,
+				268BA4A62384011A00B883DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268BA4B12384011A00B883DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268BA4BC2384011A00B883DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268BA49A2384011600B883DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BA4D523840F7100B883DC /* PreferencesView.swift in Sources */,
+				268BA4A42384011600B883DC /* ContentView.swift in Sources */,
+				268BA4D12384072800B883DC /* DaysCalculator.swift in Sources */,
+				268BA4D323840B4F00B883DC /* CountdownView.swift in Sources */,
+				268BA4A22384011600B883DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268BA4AF2384011A00B883DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BA4B82384011A00B883DC /* ChristmasTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268BA4BA2384011A00B883DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268BA4C32384011A00B883DC /* ChristmasTreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268BA4B52384011A00B883DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268BA49D2384011600B883DC /* ChristmasTree */;
+			targetProxy = 268BA4B42384011A00B883DC /* PBXContainerItemProxy */;
+		};
+		268BA4C02384011A00B883DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268BA49D2384011600B883DC /* ChristmasTree */;
+			targetProxy = 268BA4BF2384011A00B883DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		268BA4AA2384011A00B883DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268BA4AB2384011A00B883DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268BA4C52384011A00B883DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		268BA4C62384011A00B883DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		268BA4C82384011A00B883DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChristmasTree/ChristmasTree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ChristmasTree/Preview Content\"";
+				DEVELOPMENT_TEAM = K7GQY8S3S5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChristmasTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTree;
+				PRODUCT_NAME = "Christmas Tree";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		268BA4C92384011A00B883DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChristmasTree/ChristmasTree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ChristmasTree/Preview Content\"";
+				DEVELOPMENT_TEAM = K7GQY8S3S5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChristmasTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTree;
+				PRODUCT_NAME = "Christmas Tree";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		268BA4CB2384011A00B883DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K7GQY8S3S5;
+				INFOPLIST_FILE = ChristmasTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasTree.app/Contents/MacOS/ChristmasTree";
+			};
+			name = Debug;
+		};
+		268BA4CC2384011A00B883DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K7GQY8S3S5;
+				INFOPLIST_FILE = ChristmasTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasTree.app/Contents/MacOS/ChristmasTree";
+			};
+			name = Release;
+		};
+		268BA4CE2384011A00B883DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K7GQY8S3S5;
+				INFOPLIST_FILE = ChristmasTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChristmasTree;
+			};
+			name = Debug;
+		};
+		268BA4CF2384011A00B883DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K7GQY8S3S5;
+				INFOPLIST_FILE = ChristmasTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChristmasTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268BA4992384011600B883DC /* Build configuration list for PBXProject "ChristmasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268BA4C52384011A00B883DC /* Debug */,
+				268BA4C62384011A00B883DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268BA4C72384011A00B883DC /* Build configuration list for PBXNativeTarget "ChristmasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268BA4C82384011A00B883DC /* Debug */,
+				268BA4C92384011A00B883DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268BA4CA2384011A00B883DC /* Build configuration list for PBXNativeTarget "ChristmasTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268BA4CB2384011A00B883DC /* Debug */,
+				268BA4CC2384011A00B883DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268BA4CD2384011A00B883DC /* Build configuration list for PBXNativeTarget "ChristmasTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268BA4CE2384011A00B883DC /* Debug */,
+				268BA4CF2384011A00B883DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268BA4962384011600B883DC /* Project object */;
+}
