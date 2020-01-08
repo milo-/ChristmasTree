@@ -21,9 +21,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     var preferences: PreferencesViewModel = PreferencesViewModel()
     var window: NSWindow!
+    var preferencesWindow: NSWindow?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        createPreferences(preferences: preferences)
+//        createPreferences(preferences: preferences)
         // Create the window and set the content view.
         window = MyWindow(
             contentRect: NSRect(x: 0, y: 0, width: 100, height: 100),
@@ -41,7 +42,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.setFrameAutosaveName("main")
         window.isOpaque = true
         window.backgroundColor = .clear
-//        openPreferences(preferences: preferences)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -49,23 +49,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @IBAction func openPreferences(_ sender: Any) {
-        createPreferences(preferences: preferences)
+        guard preferencesWindow?.isKeyWindow != true else { return }
+
+        preferencesWindow = NSWindow(
+            contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
+            styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
+            backing: .buffered, defer: true
+        )
+        
+        createPreferences(window: preferencesWindow!, preferences: preferences)
     }
 }
 
-func createPreferences(preferences: PreferencesViewModel) {
+func createPreferences(window: NSWindow, preferences: PreferencesViewModel) {
     // Create the SwiftUI view that provides the window contents.
     let contentView = PreferencesView().environmentObject(preferences)
-
-    // Create the window and set the content view.
-    let window = MyWindow(
-        contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
-        styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
-        backing: .buffered, defer: false)
     window.center()
     window.setFrameAutosaveName("Preferences Window")
     window.contentView = NSHostingView(rootView: contentView)
     window.isMovableByWindowBackground = true
+    window.isReleasedWhenClosed = false
     window.makeKeyAndOrderFront(nil)
     window.title = "Preferences"
     window.titleVisibility = .visible

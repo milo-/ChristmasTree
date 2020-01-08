@@ -26,9 +26,6 @@ struct ContentView: View {
                 StarView(viewModel: StarViewModel(state: preferences.starState))
             }
             CountdownView().offset(x: -10, y: 0)
-            Spacer()
-                .frame(width: 10, height: 10, alignment: .bottom)
-                .background(Color(.red))
         }
         .frame(minWidth: 200, minHeight: 200, alignment: .bottom)
         .padding(.top, 10)

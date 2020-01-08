@@ -10,7 +10,6 @@ import Foundation
 import SwiftUI
 import Combine
 
-
 struct CountdownView: View {
     @ObservedObject var countdownModel = ChristmasCountdownViewModel()
 
@@ -31,9 +30,9 @@ struct CountdownView: View {
     }
 }
 
-//
-//struct CountdownView_Previews: PreviewProvider {
-//    static var previews: some View {
-////        ContentView()
-//    }
-//}
+
+struct CountdownView_Previews: PreviewProvider {
+    static var previews: some View {
+        CountdownView()
+    }
+}
