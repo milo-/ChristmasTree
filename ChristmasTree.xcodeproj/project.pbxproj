@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2670E5DF23C5F04E00C0F8AF /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5DE23C5F04E00C0F8AF /* PreferencesViewModel.swift */; };
+		2670E5E123C5F06E00C0F8AF /* StarControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5E023C5F06E00C0F8AF /* StarControlView.swift */; };
+		2670E5E323C5F07900C0F8AF /* LightsControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5E223C5F07900C0F8AF /* LightsControlView.swift */; };
+		2670E5E623C5F4F100C0F8AF /* StarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5E523C5F4F100C0F8AF /* StarViewModel.swift */; };
+		2670E5E823C5F50900C0F8AF /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5E723C5F50900C0F8AF /* StarView.swift */; };
+		2670E5EA23C5F51D00C0F8AF /* LightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5E923C5F51D00C0F8AF /* LightsView.swift */; };
+		2670E5EC23C5F55600C0F8AF /* BaubleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670E5EB23C5F55600C0F8AF /* BaubleView.swift */; };
 		268BA4A22384011600B883DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4A12384011600B883DC /* AppDelegate.swift */; };
 		268BA4A42384011600B883DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4A32384011600B883DC /* ContentView.swift */; };
 		268BA4A62384011A00B883DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268BA4A52384011A00B883DC /* Assets.xcassets */; };
@@ -14,7 +21,7 @@
 		268BA4AC2384011A00B883DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268BA4AA2384011A00B883DC /* Main.storyboard */; };
 		268BA4B82384011A00B883DC /* ChristmasTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4B72384011A00B883DC /* ChristmasTreeTests.swift */; };
 		268BA4C32384011A00B883DC /* ChristmasTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4C22384011A00B883DC /* ChristmasTreeUITests.swift */; };
-		268BA4D12384072800B883DC /* DaysCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D02384072800B883DC /* DaysCalculator.swift */; };
+		268BA4D12384072800B883DC /* ChristmasCountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D02384072800B883DC /* ChristmasCountdownViewModel.swift */; };
 		268BA4D323840B4F00B883DC /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D223840B4F00B883DC /* CountdownView.swift */; };
 		268BA4D523840F7100B883DC /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BA4D423840F7100B883DC /* PreferencesView.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2670E5DE23C5F04E00C0F8AF /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
+		2670E5E023C5F06E00C0F8AF /* StarControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarControlView.swift; sourceTree = "<group>"; };
+		2670E5E223C5F07900C0F8AF /* LightsControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsControlView.swift; sourceTree = "<group>"; };
+		2670E5E523C5F4F100C0F8AF /* StarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewModel.swift; sourceTree = "<group>"; };
+		2670E5E723C5F50900C0F8AF /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		2670E5E923C5F51D00C0F8AF /* LightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsView.swift; sourceTree = "<group>"; };
+		2670E5EB23C5F55600C0F8AF /* BaubleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaubleView.swift; sourceTree = "<group>"; };
 		268BA49E2384011600B883DC /* Christmas Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268BA4A12384011600B883DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268BA4A32384011600B883DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +65,7 @@
 		268BA4BE2384011A00B883DC /* ChristmasTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268BA4C22384011A00B883DC /* ChristmasTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTreeUITests.swift; sourceTree = "<group>"; };
 		268BA4C42384011A00B883DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		268BA4D02384072800B883DC /* DaysCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCalculator.swift; sourceTree = "<group>"; };
+		268BA4D02384072800B883DC /* ChristmasCountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownViewModel.swift; sourceTree = "<group>"; };
 		268BA4D223840B4F00B883DC /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		268BA4D423840F7100B883DC /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +95,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2670E5DD23C5F03600C0F8AF /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				2670E5DE23C5F04E00C0F8AF /* PreferencesViewModel.swift */,
+				268BA4D423840F7100B883DC /* PreferencesView.swift */,
+				2670E5E023C5F06E00C0F8AF /* StarControlView.swift */,
+				2670E5E223C5F07900C0F8AF /* LightsControlView.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		2670E5E423C5F4CB00C0F8AF /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				2670E5E523C5F4F100C0F8AF /* StarViewModel.swift */,
+				2670E5E723C5F50900C0F8AF /* StarView.swift */,
+				2670E5E923C5F51D00C0F8AF /* LightsView.swift */,
+				2670E5EB23C5F55600C0F8AF /* BaubleView.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		2670E5ED23C5F6C600C0F8AF /* Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				268BA4D02384072800B883DC /* ChristmasCountdownViewModel.swift */,
+				268BA4D223840B4F00B883DC /* CountdownView.swift */,
+			);
+			path = Countdown;
+			sourceTree = "<group>";
+		};
 		268BA4952384011600B883DC = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +149,9 @@
 		268BA4A02384011600B883DC /* ChristmasTree */ = {
 			isa = PBXGroup;
 			children = (
+				2670E5ED23C5F6C600C0F8AF /* Countdown */,
+				2670E5E423C5F4CB00C0F8AF /* Tree */,
+				2670E5DD23C5F03600C0F8AF /* Preferences */,
 				268BA4A12384011600B883DC /* AppDelegate.swift */,
 				268BA4A32384011600B883DC /* ContentView.swift */,
 				268BA4A52384011A00B883DC /* Assets.xcassets */,
@@ -111,9 +159,6 @@
 				268BA4AD2384011A00B883DC /* Info.plist */,
 				268BA4AE2384011A00B883DC /* ChristmasTree.entitlements */,
 				268BA4A72384011A00B883DC /* Preview Content */,
-				268BA4D02384072800B883DC /* DaysCalculator.swift */,
-				268BA4D223840B4F00B883DC /* CountdownView.swift */,
-				268BA4D423840F7100B883DC /* PreferencesView.swift */,
 			);
 			path = ChristmasTree;
 			sourceTree = "<group>";
@@ -276,9 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				268BA4D523840F7100B883DC /* PreferencesView.swift in Sources */,
+				2670E5EC23C5F55600C0F8AF /* BaubleView.swift in Sources */,
+				2670E5E323C5F07900C0F8AF /* LightsControlView.swift in Sources */,
+				2670E5DF23C5F04E00C0F8AF /* PreferencesViewModel.swift in Sources */,
 				268BA4A42384011600B883DC /* ContentView.swift in Sources */,
-				268BA4D12384072800B883DC /* DaysCalculator.swift in Sources */,
+				268BA4D12384072800B883DC /* ChristmasCountdownViewModel.swift in Sources */,
+				2670E5E623C5F4F100C0F8AF /* StarViewModel.swift in Sources */,
+				2670E5E123C5F06E00C0F8AF /* StarControlView.swift in Sources */,
 				268BA4D323840B4F00B883DC /* CountdownView.swift in Sources */,
+				2670E5E823C5F50900C0F8AF /* StarView.swift in Sources */,
+				2670E5EA23C5F51D00C0F8AF /* LightsView.swift in Sources */,
 				268BA4A22384011600B883DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +498,7 @@
 				CODE_SIGN_ENTITLEMENTS = ChristmasTree/ChristmasTree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ChristmasTree/Preview Content\"";
 				DEVELOPMENT_TEAM = K7GQY8S3S5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -469,6 +522,7 @@
 				CODE_SIGN_ENTITLEMENTS = ChristmasTree/ChristmasTree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ChristmasTree/Preview Content\"";
 				DEVELOPMENT_TEAM = K7GQY8S3S5;
 				ENABLE_HARDENED_RUNTIME = YES;
