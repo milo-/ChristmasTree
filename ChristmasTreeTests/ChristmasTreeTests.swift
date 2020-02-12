@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ChristmasTree
+@testable import Christmas_Tree
 
 class ChristmasTreeTests: XCTestCase {
 

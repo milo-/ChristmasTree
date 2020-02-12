@@ -557,7 +557,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTreeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasTree.app/Contents/MacOS/ChristmasTree";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Tree.app/Contents/MacOS/Christmas Tree";
 			};
 			name = Debug;
 		};
@@ -579,7 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mthi.ChristmasTreeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasTree.app/Contents/MacOS/ChristmasTree";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Tree.app/Contents/MacOS/Christmas Tree";
 			};
 			name = Release;
 		};
